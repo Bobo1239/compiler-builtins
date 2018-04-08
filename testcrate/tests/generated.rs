@@ -7,8 +7,6 @@
 
 use core::num::Float;
 
-extern crate compiler_builtins;
-
 #[cfg(all(target_arch = "arm",
           not(any(target_env = "gnu", target_env = "musl")),
           target_os = "linux",
